@@ -53,13 +53,25 @@ if st.button("Predict My Personality"):
     st.subheader(f"Your Personality Type: {personality}")
     
     descriptions = {
-        "INTJ": "Strategic thinkers, love planning, and focus on long-term goals.",
+        "INTJ": "The Architect, Imaginative, strategic, and Long-term Planners.",
         "ENTP": "Innovative, curious, and love debating ideas.",
         "INFJ": "Idealists with a deep sense of purpose.",
         "ENFP": "Energetic, creative, and value relationships.",
-        # You can add all 16 MBTI types here...
+        "INTP": "Strategic thinkers, love planning, and focus on long-term goals.",
+        "ENTJ": "Innovative, curious, and love debating ideas.",
+        "INFP": "Idealists with a deep sense of purpose.",
+        "ENFJ": "Energetic, creative, and value relationships.",
+        "ISTJ": "Strategic thinkers, love planning, and focus on long-term goals.",
+        "ESFJ": "Innovative, curious, and love debating ideas.",
+        "ISTP": "Idealists with a deep sense of purpose.",
+        "ESFP": "Energetic, creative, and value relationships.",
+        "ISFJ": "Strategic thinkers, love planning, and focus on long-term goals.",
+        "ESTJ": "Innovative, curious, and love debating ideas.",
+        "ISFP": "Idealists with a deep sense of purpose.",
+        "ESTP": "Energetic, creative, and value relationships.",
     }
 
     st.write(descriptions.get(personality, "A unique personality type with special strengths!"))
+
 
 
