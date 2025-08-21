@@ -54,24 +54,25 @@ if st.button("Predict My Personality"):
     
     descriptions = {
         "INTJ": "The Architect, Imaginative, strategic, and Long-term Planners.",
-        "ENTP": "Innovative, curious, and love debating ideas.",
-        "INFJ": "Idealists with a deep sense of purpose.",
-        "ENFP": "Energetic, creative, and value relationships.",
-        "INTP": "Strategic thinkers, love planning, and focus on long-term goals.",
-        "ENTJ": "Innovative, curious, and love debating ideas.",
-        "INFP": "Idealists with a deep sense of purpose.",
-        "ENFJ": "Energetic, creative, and value relationships.",
-        "ISTJ": "Strategic thinkers, love planning, and focus on long-term goals.",
-        "ESFJ": "Innovative, curious, and love debating ideas.",
-        "ISTP": "Idealists with a deep sense of purpose.",
-        "ESFP": "Energetic, creative, and value relationships.",
-        "ISFJ": "Strategic thinkers, love planning, and focus on long-term goals.",
-        "ESTJ": "Innovative, curious, and love debating ideas.",
-        "ISFP": "Idealists with a deep sense of purpose.",
-        "ESTP": "Energetic, creative, and value relationships.",
+        "ENTP": "The Debater, curious, smart, and intellectual.",
+        "INFJ": "The Advocate, quiet, mystical, and idealist.",
+        "ENFP": "The Campaigner, creative, enthusiastic, and sociable.",
+        "INTP": "The Logician, innovative, curious, and logical.",
+        "ENTJ": "The Commander, bold, imaginative, and strong-willed.",
+        "INFP": "The Mediator, Poetic, Kind, and Altruistic.",
+        "ENFJ": "The Protagonist, charismatic, inspiring, and Natural Leaders.",
+        "ISTJ": "The Logistician, practical, fact-minded, and reliable.",
+        "ESFJ": "The Consul, caring, social, and popular.",
+        "ISTP": "The Virtuoso, bold, practical, and experimental.",
+        "ESFP": "The Entertainer, spontaneous, energetic, and enthusiastic.",
+        "ISFJ": "The Defender, protective, warm, and caring.",
+        "ESTJ": "The Executive, organized, punctual, and leader.",
+        "ISFP": "The Adventurer, artistic, charming, and explorers.",
+        "ESTP": "The Entrepreneur, smart, energetic, and perceptive.",
     }
 
     st.write(descriptions.get(personality, "A unique personality type with special strengths!"))
+
 
 
 
