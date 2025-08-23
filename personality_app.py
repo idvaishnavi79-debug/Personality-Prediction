@@ -145,9 +145,15 @@ elif page == "About":
 
     👩‍💻 **Created by Vaishnavi Kumari**  
     A passionate Class 10 student who believes in innovation, self-growth, and making  
-    technology meaningful for others. PersonaX is my way of inspiring youth to discover themselves.  
+    technology meaningful for others. PersonaX is my way of inspiring youth to discover themselves.
+
+    ### 📬 Connect with the Creator
+    - 📧 Email: onlineppptdeliv79@gmail.com  
+    - 💼 LinkedIn: [https://www.linkedin.com/in/vaishnavi-a2a408251/](https://linkedin.com)  
+    - 🐙 GitHub: [https://github.com/idvaishnavi79-debug/Personality-Prediction/tree/main](https://github.com) 
 
     """)
+
 
 
 
