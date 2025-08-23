@@ -129,7 +129,7 @@ elif page == "About":
     - A **youth-focused approach** designed for students like YOU.  
 
     ### 🛠️ How Was PersonaX Built?
-    PersonaX is the result of a student innovator’s vision (yes, that’s you, Vaish 😉).  
+    PersonaX is the result of a student innovator’s vision.  
     It combines:
     - AI + Psychology  
     - Modern design with simple navigation  
@@ -148,6 +148,7 @@ elif page == "About":
     technology meaningful for others. PersonaX is my way of inspiring youth to discover themselves.  
 
     """)
+
 
 
 
