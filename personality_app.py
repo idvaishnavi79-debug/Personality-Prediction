@@ -82,6 +82,47 @@ st.write("Unlock advanced personality insights!")
 if st.button("Pay with Razorpay"):
     st.write("Redirecting to Razorpay checkout... (Demo)")
 
+# Sidebar for navigation
+st.sidebar.title("PersonaX Navigation")
+page = st.sidebar.selectbox("Go to", ["Home", "Premium Upgrade", "About"])
+
+# --- HOME PAGE ---
+if page == "Home":
+    st.image("Logo.jpeg", use_container_width=True)  
+    st.title("PersonaX")
+    st.subheader("Predict my Personality")
+    if st.button("Start Personality Test"):
+        st.write("👉 Personality Test will start here...")
+
+# --- PREMIUM UPGRADE PAGE ---
+elif page == "Premium Upgrade":
+    st.title("Upgrade to PersonaX Premium ✨")
+    
+    st.markdown("""
+    🔓 Unlock exclusive features:
+    - ✅ Detailed MBTI personality breakdown  
+    - ✅ Career guidance based on your personality  
+    - ✅ Strengths & Weaknesses explained in depth  
+    - ✅ Retake quizzes & track progress  
+    - ✅ Priority support during fest  
+
+    """)
+    
+    st.subheader("Pricing 💰")
+    st.write("Only **₹100** 🎉")  # affordable for students
+    
+    if st.button("Pay with Razorpay (Demo)"):
+        st.write("🛒 Redirecting to Razorpay demo checkout...")
+
+# --- ABOUT PAGE ---
+elif page == "About":
+    st.title("About PersonaX")
+    st.write("""
+    PersonaX is a personality prediction platform built for youth to explore themselves,
+    discover their strengths, and make smarter career & life choices.
+    """)
+
+
 
 
 
