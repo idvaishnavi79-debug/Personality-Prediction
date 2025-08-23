@@ -150,9 +150,10 @@ elif page == "About":
     ### 📬 Connect with the Creator
     - 📧 Email: onlineppptdeliv79@gmail.com  
     - 💼 LinkedIn: [https://www.linkedin.com/in/vaishnavi-a2a408251/](https://linkedin.com)  
-    - 🐙 GitHub: [https://github.com/idvaishnavi79-debug/Personality-Prediction/tree/main](https://github.com) 
+    - 🐙 GitHub: [https://github.com/idvaishnavi79-debug/Personality-Prediction](https://github.com) 
 
     """)
+
 
 
 
