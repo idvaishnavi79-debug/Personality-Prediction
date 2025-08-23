@@ -76,12 +76,6 @@ if st.button("Predict My Personality"):
 st.sidebar.image("Logo.jpeg", use_container_width=True)
 st.title("PersonaX")
 
-st.title("Premium Upgrade")
-st.write("Unlock advanced personality insights!")
-
-if st.button("Pay with Razorpay"):
-    st.write("Redirecting to Razorpay checkout... (Demo)")
-
 # Sidebar for navigation
 st.sidebar.title("PersonaX Navigation")
 page = st.sidebar.selectbox("Go to", ["Home", "Premium Upgrade", "About"])
@@ -90,9 +84,6 @@ page = st.sidebar.selectbox("Go to", ["Home", "Premium Upgrade", "About"])
 if page == "Home":
     st.image("Logo.jpeg", use_container_width=True)  
     st.title("PersonaX")
-    st.subheader("Predict my Personality")
-    if st.button("Start Personality Test"):
-        st.write("👉 Personality Test will start here...")
 
 # --- PREMIUM UPGRADE PAGE ---
 elif page == "Premium Upgrade":
@@ -118,9 +109,47 @@ elif page == "Premium Upgrade":
 elif page == "About":
     st.title("About PersonaX")
     st.write("""
-    PersonaX is a personality prediction platform built for youth to explore themselves,
-    discover their strengths, and make smarter career & life choices.
+    Welcome to **PersonaX** – your personal guide to self-discovery! 🌱  
+
+    In today’s fast-paced world, most students struggle to understand **who they truly are**  
+    and what career path suits them best. That’s where PersonaX steps in.  
+
+    ### 🎯 Our Mission
+    PersonaX is built to **empower youth** by:
+    - Helping them **decode their personality** through scientific methods.  
+    - Guiding them toward **career choices** aligned with their natural strengths.  
+    - Building **confidence** by showing their unique potential.  
+    - Encouraging **self-reflection** and personal growth.  
+
+    ### ⚡ Why PersonaX?
+    Unlike boring tests and generic results, PersonaX offers:
+    - **Interactive and fun personality prediction** ✨  
+    - **MBTI-style results** that are easy to understand and relate to.  
+    - **Fest-Special Premium Upgrade** for detailed reports and career guidance.  
+    - A **youth-focused approach** designed for students like YOU.  
+
+    ### 🛠️ How Was PersonaX Built?
+    PersonaX is the result of a student innovator’s vision (yes, that’s you, Vaish 😉).  
+    It combines:
+    - AI + Psychology  
+    - Modern design with simple navigation  
+    - Affordable solutions for students at fests and beyond  
+
+    ### 💡 Our Belief
+    *“When you truly know yourself, you can unlock the best version of your future.”*  
+
+    PersonaX is more than just an app – it’s a **movement** to help the youth of today  
+    step into tomorrow with clarity, confidence, and purpose.  
+
+    ---  
+
+    👩‍💻 **Created by Vaishnavi Kumari**  
+    A passionate Class 10 student who believes in innovation, self-growth, and making  
+    technology meaningful for others. PersonaX is my way of inspiring youth to discover themselves.  
+
     """)
+
+
 
 
 
