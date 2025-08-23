@@ -73,7 +73,7 @@ if st.button("Predict My Personality"):
 
     st.write(descriptions.get(personality, "A unique personality type with special strengths!"))
 
-st.sidebar.image("logo.png", use_column_width=True)
+st.sidebar.image("Logo.jpeg", use_column_width=True)
 st.title("PersonaX")
 
 st.title("Premium Upgrade")
@@ -81,6 +81,7 @@ st.write("Unlock advanced personality insights!")
 
 if st.button("Pay with Razorpay"):
     st.write("Redirecting to Razorpay checkout... (Demo)")
+
 
 
 
