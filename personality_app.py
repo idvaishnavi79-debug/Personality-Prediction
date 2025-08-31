@@ -79,8 +79,9 @@ st.title("PersonaX")
 # Sidebar for navigation
 st.sidebar.title("PersonaX Navigation")
 page = st.sidebar.selectbox("Go to", ["Home", "Premium Upgrade", "About"])
+
 # --- PREMIUM UPGRADE PAGE ---
-elif page == "Premium Upgrade":
+if page == "Premium Upgrade":
     st.title("Upgrade to PersonaX Premium ✨")
     
     st.markdown("""
@@ -98,4 +99,5 @@ elif page == "Premium Upgrade":
     
     if st.button("Pay with Razorpay (Demo)"):
         st.write("🛒 Redirecting to Razorpay demo checkout...")
+
 
